@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>基于Bootstrap3所见即所得的jQuery文本编辑器插件|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5/css/bootstrap.min.css"></link>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.5/css/bootstrap-theme.min.css"></link>
+	<link rel="stylesheet" type="text/css" href="dist/bootstrap3-wysihtml5.min.css"></link>
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<style type="text/css" media="screen">
+	  .btn.jumbo {
+	    font-size: 20px;
+	    font-weight: normal;
+	    padding: 14px 24px;
+	    margin-right: 10px;
+	    -webkit-border-radius: 6px;
+	    -moz-border-radius: 6px;
+	    border-radius: 6px;
+	  }
+	</style>
+</head>
+<body>
+	<article class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>基于Bootstrap3所见即所得的jQuery文本编辑器插件 <span>A Simple, beautiful wysiwyg editor</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/jQuery/Layout-Interface/201512282959.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+		</header>
+		<div class="container">
+		  <div class="jumbotron" style="margin-top:40px">
+		    <h1 style="font-size:58px">bootstrap-wysihtml5 <br/><small>Simple, beautiful wysiwyg editors</small></h1>
+		    <hr style="border-color: white"/>
+		    <textarea class="textarea" placeholder="Enter text ..." style="width: 100%; height: 200px; font-size: 14px; line-height: 18px;"></textarea>
+		  </div>
+
+		</div>
+		<footer class="related">
+		    <h3>如果你喜欢这个插件，那么你可能也喜欢:</h3>
+		    <a href="http://www.htmleaf.com/jQuery/Layout-Interface/201505271916.html">
+			  <img src="related/1.jpg" width="300" alt="基于Bootstrap响应式所见即所得的jQuery编辑器插件"/>
+			  <h3>基于Bootstrap响应式所见即所得的jQuery编辑器插件</h3>
+			</a>
+			<a href="http://www.htmleaf.com/jQuery/Form/201501221249.html">
+			  <img src="related/2.jpg" width="300" alt="所见即所得的jQuery富文本编辑器插件-wysiwyg.js"/>
+			  <h3>所见即所得的jQuery富文本编辑器插件-wysiwyg.js</h3>
+			</a>
+		</footer>
+	</article>
+	
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="bootstrap-3.3.5/js/bootstrap.min.js"></script>
+	<script src="dist/bootstrap3-wysihtml5.all.min.js"></script>
+	<script type="text/javascript" src="dist/locales/bootstrap-wysihtml5.zh-CN.js"></script>
+	<script>
+	  $('.textarea').wysihtml5({locale: "zh-CN"});
+	</script>
+</body>
+</html>
